@@ -9,7 +9,6 @@ form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-
   const delay = Number(form.elements.delay.value);
   const state = form.elements.state.value;
 
